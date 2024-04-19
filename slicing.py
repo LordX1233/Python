@@ -1,0 +1,1 @@
+print (round((float('X-DSPAM-Confidence: 0.8475'[-4 : ]) / 10**(len('X-DSPAM-Confidence: 0.8475'[-4 : ]))) + 1, 4))
